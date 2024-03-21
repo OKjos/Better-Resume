@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" type="text/css" href="Main.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+
+
+  <!-- Header -->
+
+
+
+  <div class="App">
+    <section class="background">
+      <div class="App">
+        <header class="App-header">
+          <a class="header-button">
+            Home
+          </a>
+          <a class="header-button">
+            About
+          </a>
+          <a class="header-button">
+            Skills
+          </a>
+          <a class="header-button">
+            Projects
+          </a>
+          <a class="header-button">
+            Contact
+          </a>
+        </header>
+      </div>
+    </section>
+    <div id="particles-container"></div>
+  
+    <div class="text-container" id="home-page">
+      <h1 class='home-h2'>Hello,</h1>
+      <h1 class='home-h1'>I'm Joshua White</h1>
+      <h1 class='home-h1-2'>I build websites.</h1>
+      <button class='resume-button'>Resume</button>
+    </div>
+  </div>
+
+
+
+  <!-- About Myself -->
+
+
+
+  <div class="about-me-content">
+    <div class="about-me-header-container">
+      <h1 class="about-me-header">About Myself__</h1>
+    </div>
+    <div class="about-me-text">
+      <h2 class="about-me-description">Hello, I'm Joshua White and I am a Front-End Developer. My passion for coding the Front End of websites is as great as my passion for everything else I do in life. I love being able to think and express my ideas.</h2>
+      <h2>I have been coding for around 1 year now. I've worked on many projects by myself and with close friends of mine.</h2>
+      <div class="about-button-container">
+        <button class="about-contact-button">Contact Me</button>
+        <button class="about-resume-button">Resume</button>
+      </div>
+    </div>
+    <div class="about-img-container">
+      <img class="about-img" src="Assets/AboutSvg.svg" alt="About Me" />
+    </div>
+  </div>
+
+
+
+  <!-- My Skills -->
+
+
+
+  <div class="skills-container">
+    <h1 class="skills-header">My Skills__</h1>
+    <div class="skills-img-container">
+        <img class="skills-img" src='./Assets/skills.svg' alt="Skills" />
+    </div>
+    <div class="skills-text-container">
+        <h1 class="skills-text">Since technologies are always evolving, I'm very happy to go out and learn the new or changed technologies and to try them out in building something with the new process.</h1>
+        <h1 class="skills-text">If a project that I'm working on needs a different process then what I know 
+        I'm always happy to have an excuse to go out and learn the new process. With working 
+        in team or solo I always try to understand everyone's view on the problem and if I'm
+        alone I like to ask someone about my problem or their opinions on how it looks.</h1>
+        <h1 class="skills-text">Here are just a few of the Technologies/Tools I've worked with so far:</h1>
+        <ul class="ul-skills">
+            <li><span>&#x25B6;</span> JavaScript</li>
+            <li><span>&#x25B6;</span> React.js</li>
+            <li><span>&#x25B6;</span> Node.js</li>
+            <li><span>&#x25B6;</span> CSS</li>
+            <li><span>&#x25B6;</span> HTML</li>
+        </ul>
+    </div>
+</div>
+
+
+
+  <!-- My Projects -->
+
+  <div class="project-header-container">
+    <h1 class="projects-header">My Projects__</h1>
+  </div>
+  <div class="grid-container">
+    <div class="grid-item">
+        <img src="./Assets/Razer-clone-IMG.jpg" alt="Image 1">
+        <h2>Razer Clone</h2>
+        <p>A clone of razers website.</p>
+        <button class="live-demo-button">Live Demo</button>
+        <button class="code-button">Code</button>
+    </div>
+    <div class="grid-item">
+        <img src="./Assets/rock-paper-scissors-IMG.png" alt="Image 2">
+        <h2>Rock, Paper, Scissors Game</h2>
+        <p>Just a simple rock, paper, scissors game.</p>
+        <button class="live-demo-button">Live Demo</button>
+        <button class="code-button">Code</button>
+    </div>
+    <div class="grid-item">
+        <img src="./Assets/Day-countdown-IMG.png" alt="Image 3">
+        <h2>Day Countdown</h2>
+        <p>Takes inputed time and gives the time left.</p>
+        <button class="live-demo-button">Live Demo</button>
+        <button class="code-button">Code</button>
+    </div>
+    <div class="grid-item">
+        <img src="./Assets/ToDo-list-IMG.png" alt="Image 4">
+        <h2>Todo List</h2>
+        <p>Just a simple todo list.</p>
+        <button class="live-demo-button">Live Demo</button>
+        <button class="code-button">Code</button>
+    </div>
+    <div class="grid-item">
+        <img src="./Assets/calculator.png" alt="Image 5">
+        <h2>Calculator</h2>
+        <p>Basic calculator.</p>
+        <button class="live-demo-button">Live Demo</button>
+        <button class="code-button">Code</button>
+    </div>
+    <div class="grid-item">
+        <img src="./Assets/NewBegining.jpg" alt="Image 6">
+        <h2>Churchs website</h2>
+        <p>Local church asked for a simple website.</p>
+        <button>Button 1</button>
+        <button>Button 2</button>
+    </div>
+  </div>
+
+  
+
+  <!-- Get in touch -->
+
+
+
+  <div class="contact-container" id='get-in-touch'>
+    <h1 class="getintouch-header">Get in Touch__</h1>
+    <div class="content-container grid-container">
+      <div class="getintouch-container grid-item">
+        <h2>Hillman, Michigan, USA</h2>
+        <h2>joswhite2001@gmail</h2>
+        <h2>989-255-7983</h2>
+        <h1>Email option coming soon</h1>
+      </div>
+      <div class="input-container grid-item">
+        <div class="name-email-container">
+          <form id="contactForm" action="/send-email" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            <button class="send-button" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <script type="module" src="Main.js"></script>
+</body>
+</html>

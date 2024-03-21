@@ -1,0 +1,81 @@
+.body-container {
+  background-color: rgb(11, 42, 68);
+}
+
+.container {
+  text-align: center;
+}
+
+.ResumeImg {
+  margin-top: 80px;
+  width: 700px; 
+  height: 800px; 
+}
+
+.button-container {
+  margin-left: 320px;
+}
+
+.back-button {
+  color: white;
+  background-color: rgb(11, 42, 68);
+  border-radius: 12px;
+  border: 2px solid #0cff20;
+  cursor: pointer;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-right: 20px; 
+}
+
+.back-button:hover {
+  color: white;
+  background-color: rgb(11, 42, 68);
+  border-radius: 12px;
+  border: 2px solid #0cff20;
+  cursor: pointer;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-right: 20px; 
+  background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+}
+
+.download-button:hover {
+  color: white;
+  border-radius: 12px;
+  border: 2px solid #0cff20;
+  cursor: pointer;
+  font-size: 30px;
+  margin-top: 30px;
+  background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+}
+
+.download-button {
+  color: white;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  margin-top: 30px;
+  background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+}
+
+
+@media (max-width: 600px) {
+  .ResumeImg {
+      width: 100%; 
+      height: 100%; 
+  }
+
+  .button-container {
+      margin-left: 0;
+      text-align: center;
+  }
+
+  .back-button,
+  .download-button {
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+  
+
+}
